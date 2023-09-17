@@ -3,6 +3,7 @@
 // login page
 
 import React from 'react'
+import ReCAPTCHA from 'react-google-recaptcha';
 import { Input } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
 
@@ -27,6 +28,9 @@ const page = () => {
                     labelPlacement="outside"
                     className='rounded-sm'
                 />
+                <ReCAPTCHA
+                    sitekey="6LcSuzAoAAAAAGpQ5Xx7CDy-flo0QzmI4KimrvwR"
+                />
                 <Button className='bg-[#144173] text-white font-bold uppercase w-full'>
                     submit
                 </Button>
@@ -36,3 +40,6 @@ const page = () => {
 }
 
 export default page
+
+// site: 6LcSuzAoAAAAAGpQ5Xx7CDy-flo0QzmI4KimrvwR
+// secret: 6LcSuzAoAAAAAHjLMyeJxXDnxSL8JOxh6LBNtcLD
