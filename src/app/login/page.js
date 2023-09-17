@@ -32,7 +32,7 @@ const page = () => {
                     sitekey="6LcSuzAoAAAAAGpQ5Xx7CDy-flo0QzmI4KimrvwR"
                 />
                 <Button className='bg-[#144173] text-white font-bold uppercase w-full'>
-                    submit
+                    Submit
                 </Button>
             </section>
         </main>
